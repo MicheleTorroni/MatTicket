@@ -1,0 +1,127 @@
+#oggetti {
+    vertical-align: top;
+    margin-bottom: 30px;
+    color: white;
+    height : 385px;
+    width:90%;
+    margin-left: 5%;
+    border: 1.5px solid rgb(246, 164, 84);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50%;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+#oggetti li {
+    margin: 30px 0px;
+}
+
+#oggetti label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    float: left;
+    margin-left:5%;
+    width: 40%;
+    text-align: left;
+}
+
+.form{
+    width: 50%;
+    display:block;
+    border: 1.5px solid rgb(246, 164, 84);
+    border-radius: 10px;
+    float:left;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+
+.hform {
+    width: 22%;
+    display: block;
+    border: 1.5px solid rgb(246, 164, 84);
+    border-radius: 10px;
+    margin: 0 0;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+
+.hform:nth-of-type(1) , .hform:nth-of-type(3){
+    margin-right: 5%;
+}
+
+
+textArea {
+    width: 90%;
+    height: 90%;
+    padding: 0;
+    border: 1.5px solid rgb(246, 164, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    margin-top: 3%;
+    border-radius: 10px;
+    resize: none;
+}
+
+#descrizione {
+    vertical-align: top;
+    margin-bottom: 30px;
+    height : 250px;
+    width:90%;
+    margin-left: 5%;
+    border: 3px solid rgb(246, 164, 84);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*-----------------------------------------------------INIZIO DESKTOP-----------------------------------------------------*/
+@media screen and (min-width: 768px) {
+
+    #oggetti {
+        margin-bottom: 45px;
+        width: 75%;
+        margin-left: 12.5%;
+        height : 435px;
+        border-top: 2px solid rgb(246, 164, 84);
+        border-bottom: 2px solid rgb(246, 164, 84);
+        font-size: 100%;
+    }
+
+    .hform:nth-of-type(1) , .hform:nth-of-type(3){
+        margin-right: 5.5%;
+    }
+    
+    #descrizione {
+        height: 350px;
+        width: 75%;
+        margin-left:12.5%;
+    }
+
+    textArea {
+        width: 90%;
+        height: 90%;
+        margin: 1.5%;
+        padding: 0;
+        border: 2px solid rgb(246, 164, 84);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+        border-radius: 10px;
+        resize: none;
+    }
+
+    #termina {
+        width: 35%;
+        margin-left:32.5%;
+        font-size: 150%;
+        height: 50px;
+    }
+  
+  }
